@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['coca_cola', 'dongpeng_special', 'lay-s_chip', 'mengniu_milk', 'red_block', 'wangzai_milk']
+
+roboflow:
+  workspace: supermarket-data
+  project: supermarket-tdzny
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/supermarket-data/supermarket-tdzny/dataset/1
